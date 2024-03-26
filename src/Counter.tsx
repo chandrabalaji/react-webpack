@@ -7,6 +7,7 @@ const Counter = () => {
   const name = "raviab";
   return (
     <div>
+      
       <button onClick={() => setcount((val) => val - 1)}>-</button>
       <span>{count}</span>
       <button onClick={() => setcount((val) => val + 1)}>+</button>
