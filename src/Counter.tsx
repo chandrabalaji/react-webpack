@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 const Counter = () => {
   const [count, setcount] = useState(0)
   // const [val, seval] = useState(0)
-  console.log('hell world')
-  const name = "ram"
+  console.log("hello")
+  const name = 'ram'
   return (
     <div>
       <button onClick={() => setcount((val) => val - 1)}>-</button>
