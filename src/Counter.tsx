@@ -5,7 +5,9 @@ const Counter = () => {
   // const [val, seval] = useState(0)
   console.log('hello and  world')
   const name = 'ram'
-
+  if (true) {
+  }else {
+  }
   return (
     <div>
       <button onClick={() => setcount((val) => val - 1)}>-</button>
