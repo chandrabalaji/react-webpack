@@ -5,6 +5,7 @@ const Counter = () => {
   const [val, seval] = useState(0)
   console.log('hell world')
   const name = "john"
+  
   return (
     <div>
       <button onClick={() => setcount((val) => val - 1)}>-</button>
