@@ -2,6 +2,7 @@ import React from 'react'
 import './app.css'
 import Counter from './Counter'
 import icon from './images/icon.png'
+import Dialogs from './shadcn/Dialogs'
 
 const icon2 = require('./images/icon.png')
 const Main = () => {
@@ -12,6 +13,7 @@ const Main = () => {
       <br />
       <img src={icon2} alt="" />
       <Counter />
+      <Dialogs />
     </>
   )
 }

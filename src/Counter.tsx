@@ -6,7 +6,7 @@ const Counter = () => {
   console.log('hello and  world')
   const name = 'ram'
   if (true) {
-  }else {
+  } else {
   }
   return (
     <div>
@@ -14,7 +14,7 @@ const Counter = () => {
       <span>{count}</span>
       <button onClick={() => setcount((val) => val + 1)}>+</button>
       {name}
-      <p>
+      <p className="text-red-700">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum cumque
         sit vitae ducimus fugit accusantium ut perferendis culpa possimus
         consequatur ab perspiciatis maxime deserunt magni repellendus iste
